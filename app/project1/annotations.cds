@@ -23,6 +23,16 @@ annotate service.Books with @(
                 Value : status_code,
                 Criticality : status.criticality,
             },
+            {
+                $Type : 'UI.DataField',
+                Value : title,
+                Label : 'title',
+            },
+            {
+                $Type : 'UI.DataField',
+                Value : genre,
+                Label : 'genre',
+            },
         ],
     },
     UI.Facets : [
